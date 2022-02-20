@@ -12,6 +12,7 @@ public class main {
 
         JFrame jFrame = new JFrame("IP Finder Program");
         jFrame.setBounds(100, 100, 300, 300);
+        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setVisible(true);
 
         JLabel label = new JLabel("Enter URL: ");
